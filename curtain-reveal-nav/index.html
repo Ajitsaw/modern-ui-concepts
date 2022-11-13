@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Curtain Reveal Nav</title>
+    <!-- Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Css -->
+    <link rel="stylesheet" href="css/app.css" />
+    <link rel="stylesheet" href="node_modules/swiper/swiper-bundle.min.css" />
+  </head>
+  <body data-nav="false">
+    <!-- <header>
+      <div class="container">
+        <div class="row justify-content-between align-items-center">
+          <div class="col-auto">
+            <div class="logo">Logo</div>
+          </div>
+          <div class="col-auto">
+            <button>Button</button>
+          </div>
+        </div>
+      </div>
+    </header> -->
+
+    <main  id="main">
+      <img src="image/main-bg.jpg" alt="main" />
+    </main>
+
+    <nav id="nav">
+      <div id="nav-links">
+        <a href="javascript:void(0)" class="nav-link" onclick="imageChange(this)" data-src="image/4.jpg">
+          <h2>Home</h2>
+          <img src="image/4.jpg" alt="img" />
+        </a>
+        <a href="javascript:void(0)" class="nav-link" onclick="imageChange(this)" data-src="image/5.jpg">
+          <h2>About</h2>
+          <img src="image/5.jpg" alt="img" />
+        </a>
+        <a href="javascript:void(0)" class="nav-link" onclick="imageChange(this)" data-src="image/7.jpg">
+          <h2>Work</h2>
+          <img src="image/7.jpg" alt="img" />
+        </a>
+        <a href="javascript:void(0)" class="nav-link" onclick="imageChange(this)" data-src="image/wallhaven-qzdqvr.jpg">
+          <h2>Service</h2>
+          <img src="image/wallhaven-qzdqvr.jpg" alt="img" />
+        </a>
+        <a href="javascript:void(0)" class="nav-link" onclick="imageChange(this)" data-src="image/1.jpg">
+          <h2>Contact</h2>
+          <img src="image/1.jpg" alt="img" />
+        </a>
+      </div>
+    </nav>
+
+    <button id="nav-toggle" onclick="navToggle()">
+        <div class="open">
+            <svg stroke="currentColor" fill="none" stroke-width="1.5" viewBox="0 0 24 24" ariaHidden="true" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12H12m-8.25 5.25h16.5"></path></svg>
+        </div>
+        <div class="close">
+            <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 16 16" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M7.116 8l-4.558 4.558.884.884L8 8.884l4.558 4.558.884-.884L8.884 8l4.558-4.558-.884-.884L8 7.116 3.442 2.558l-.884.884L7.116 8z"></path></svg>
+        </div>
+    </button>
+
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="node_modules/swiper/swiper-bundle.js"></script>
+    <script src="js/index.js"></script>
+  </body>
+</html>

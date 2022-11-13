@@ -1,0 +1,23 @@
+header {
+    position: absolute;
+    width: 100%;
+    z-index: 3;
+    padding: 15px 0;
+    .logo {
+        // font-family: 'Satisfy', cursive;
+        font-family: 'Kalam', cursive; 
+        font-size: 3.5em;
+        color: #fff;
+    }
+    button {
+        border: none;
+        padding: 10px 30px;
+        border-radius: 10px;
+        background: rgba(255,255,255,.3);
+        color: #fff;
+        font-size: 1.2em;
+        font-weight: 500;
+        outline: none;
+        box-shadow: none;
+    }
+}

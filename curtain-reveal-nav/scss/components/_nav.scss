@@ -1,0 +1,29 @@
+nav {
+  height: 50vh;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+  #nav-links {
+    display: flex;
+    gap: 2rem;
+    padding: 30px clamp(3rem, 2rem, 2rem) 0;
+    transform: translate(0, 20%) scale(.9);
+    transition: all .3s ease;
+    .nav-link {
+      h2 {
+        font-size: 1.25rem;
+        color: #fff;
+        text-transform: uppercase;
+        font-weight: 500;
+      }
+      img {
+        aspect-ratio: 1.8/1.2;
+        border-radius: 0.3rem;
+        margin-top: 1rem;
+        max-height: 200px;
+        object-fit: cover;
+      }
+    }
+  }
+}
